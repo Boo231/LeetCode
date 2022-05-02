@@ -3,9 +3,11 @@ package problems.addtwointegers;
 public class Main {
 
   public static void main(String[] args) {
-    Integer num1 = 234225;
-    Integer num2 = -2999990;
-    System.out.println(num1 + num2);
+    int num1 = 234225;
+    int num2 = -2999990;
+    Solution solution = new Solution();
+    Integer result = solution.sum(num1, num2);
+    System.out.println(result);
   }
 
 
